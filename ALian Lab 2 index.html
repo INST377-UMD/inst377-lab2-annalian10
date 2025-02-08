@@ -1,0 +1,35 @@
+<!--Lab2 Requirements:
+Page 1 Requirements:
+    1. Create HTML form with Action
+        a. Form must have minimum of 1 Textbox, with 1 Required field - 2pts
+        b. Form must have a Submit button - 1pt
+        c. Form must have an action that redirect to Page 2 on Submission - 3pts
+        d. Form must have labels - 2pts
+    2. CSS:
+        a. Change background color of page - 1pt
+        b. CSS Must Style the Submit Button, and ONLY the submit button, with a
+           Different Color, and some margin - 3pts
+        c. The Submit button must have a Hover Element (the color changes on hover) -
+           CHALLENGE (Not directly covered in Lecture) - 6pts
+        d. You must create a div, and use that to modify the text boxes - 4pts
+           i.  Make it have a margin
+           ii. Increase the Font-Size of at least the label-->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Page</title>
+      <link rel="stylesheet" href="ALian style.css">
+   </head>
+   <body>
+      <h1>INST377 Lab 2</h1>
+      <form action="ALian Lab 2 thankyou.html" method="GET">
+         <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit" class="submit-btn">Submit</button>
+         </div>
+      </form>
+   </body>
+</html>
